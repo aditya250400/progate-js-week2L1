@@ -1,0 +1,128 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+.hasil2 {
+	padding: 2px 16px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.get-pikachu {
+	margin: 20px auto 0;
+	padding: 20px;
+	background-color: #eaeaea;
+	width: 960px;
+	box-sizing: border-box;
+}
+.name{
+	background-color: #fff;
+	padding: 5px;
+}
+.pikachu{
+	background-color: #F6CF57;
+	width: 120px;
+}
+hr {
+	width: 100%;
+}
+.button2 {
+	padding: 7px;
+	background-color: seagreen;
+	color: white;
+	border: none;
+	box-shadow: 0 5px black;
+	margin-left: 2px;
+	opacity: 0.8;
+	margin-top: 10px;
+
+}
+.button2:hover {
+	background-color: lightblue;
+	cursor: pointer;
+}
+.button2:active {
+	box-shadow: none;
+	position: relative;
+	left: 5px;
+}
+
+
+.pokemon {
+	margin: 20px auto 0;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #eaeaea;
+	width: 960px;
+	box-sizing: border-box;
+
+}
+.hr2 {
+	margin-top: 25px;
+}
+
+/****/
+img{
+	width: 60%;
+}
+.cardd {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.cardd:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardd .name{
+	padding: 7px;
+}
+.card .name{
+	padding: 7px;
+}
+
+.containerr {
+  padding: 7px 16px;
+  background-color: #fff;
+
+
+}
+.electric {
+	background-color: #F6CF57;
+}
